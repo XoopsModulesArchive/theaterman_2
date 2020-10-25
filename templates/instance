@@ -1,0 +1,32 @@
+<table width=100%>
+<tr>
+  <td class=head colspan=3 style='text-align: left;'><h1>{title}</h1></td>
+</tr>
+<tr>
+  <td class=head colspan=3 style='text-align: left;'>{season}</td>
+</tr>
+<tr>
+<td class=even valign=top>
+  <table style='text-align: left;'>
+    <tr><td class=even nowrap>{date}</td></tr>
+    <tr><td class=even nowrap>{time}</td></tr>
+    <tr><td class=even nowrap>{price}</td></tr>
+    <tr><td class=even nowrap>{location}</td></tr>
+    <tr><td class=even nowrap>{others}</td></tr>
+    <tr><td class=even nowrap>{ppack}</td></tr>
+    <tr><td class=even nowrap>{link}</td></tr>
+    <tr><td class=outside nowrap>{sponsors}</td></tr>
+  </table>
+</td>
+<td class=odd width=100% valign=top>
+  <i>{extra}</i>
+  {body}
+</td>
+<td class=even valign=top>
+  {images}
+</td>
+</tr>
+<tr>
+  <td class=foot colspan=3>{season}</td>
+</tr>
+</table>
